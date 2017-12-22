@@ -1,0 +1,121 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+ul {
+  padding-left: 0;
+}
+
+a {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1.125rem;
+  color: #6c8af0;
+  line-height: 2em;
+  text-decoration: none;
+}
+
+header {
+  text-align: left;
+  background-color: #18294f;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: #6c8af0;
+}
+
+li:hover a {
+    color: white;
+}
+
+@media only screen and (min-width: 20em) {
+  html {
+    font-size: 100%;
+    line-height: 1.3em;
+  }
+}
+
+@media only screen and (min-width: 25em) {
+  li {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  li {
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
+
+  html {
+    font-size: 110%;
+    line-height: 1.4em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  html {
+    font-size: 120%;
+    line-height: 1.5em;
+  }
+
+  h1 {
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
+  ul {
+    float: right;
+    width: 55%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+  html {
+    font-size: 130%;
+  }
+
+  h1 {
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
+  ul {
+    float: right;
+    width: 55%;
+    text-align: center;
+  }
+}
