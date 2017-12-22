@@ -25,6 +25,8 @@ h1 {
   text-align: center;
   font-size: 2rem;
   color: #fff;
+  padding: .3em 0 .5em;
+  margin: 0;
 }
 
 ul {
@@ -42,6 +44,10 @@ a {
 header {
   text-align: left;
   background-color: #18294f;
+}
+
+nav {
+  overflow: hidden;
 }
 
 li {
